@@ -1,0 +1,42 @@
+.menu-section-cont{
+    position: absolute;
+width: 375px;
+height: 1720px;
+left: 0px;
+top: 2202px;
+
+background: #111111;
+}
+.menu-cont{
+    position: absolute;
+width: 327px;
+height: 1576px;
+left: 24px;
+top: 2202x;
+
+}
+.menu-txt-cont{
+    position: absolute;
+    width: 327px;
+    height: 235px;
+    left: 24px;
+    color: white;
+
+}
+
+.food-line{
+    position: absolute;
+    width: 71px;
+    height: 7px;
+    left: 152px;
+
+}
+
+.menu-item{
+    position: absolute;
+width: 327px;
+height: 418px;
+left: 24px;
+top: 202px;
+color: white;
+}

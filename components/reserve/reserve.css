@@ -1,0 +1,118 @@
+
+  .email-modal{
+      display: flex;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    position: absolute;
+    width: 327px;
+    height: 585px;
+    left: 24px;
+    top: 463px;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+  }
+  .email-modal__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .email-modal__form-group{
+    padding: 20px;
+  }
+  .email-modal__form-group--error{
+    border: 1px solid red;
+  }
+  .email-modal__input{
+    background: white;
+    border: 0px solid;
+    width: 263px;
+height: 45px;
+    border-bottom: 1px solid black;
+    font-family: Spartan;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+letter-spacing: -0.225px;
+
+color: #111111;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+
+  }
+  .email-modal__error-message{
+    color: #fbe743;
+    margin-bottom: .7rem;
+    font-size: .8rem;
+    display: none;
+  }
+  .email-modal__error-message--active{
+    display: block;
+  }
+  
+  .email-modal__decline-offer{
+    color: rgba(221,221,221, .6);
+    text-decoration: underline;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+  }
+  .email-modal__decline-offer:hover{
+    color:white;
+  }
+  .email-modal__side-img img{
+    height: 400px;
+  }
+  .email-thank{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fbe743;
+    transform: translate3d(100%, 0, 0);
+    transition: all .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .email-thank--success{
+    transform: translate3d(0,0,0);
+  }
+  .email-thank__title{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    transition: opacity .3s ease-in-out .4s;
+  }
+  .email-thank__message{
+    color: rgba(0,0,0,1);
+    font-weight: 300;
+    font-size: .8rem;
+    opacity: 0;
+    transition: opacity .3s ease-in-out .7s;
+  }
+  
+  .email-thank--success .email-thank__title, .email-thank--success .email-thank__message{
+    opacity: 1;
+  }
+  .email-modal__button{
+    border: 1px solid white;
+    width: 245px;
+    height: 64px;
+    margin-left:32px;
+    margin-top: 27px;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+.submit-btn p{
+    margin-top: 24px;
+}

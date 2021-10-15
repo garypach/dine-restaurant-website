@@ -1,5 +1,6 @@
 import Cover from "./coversection/cover"
 import HomeHero from "./homeherosection/HomeHero"
+import Menu from "./menusection/menu"
 
 const Home = () => {
     return(
@@ -23,6 +24,8 @@ const Home = () => {
             ' All our ingredients come directly from our farm or local fishery. So you can be sure that you’re eating the freshest, most sustainable food. '
         }
         type={'under'}/>
+
+        <Menu foodImage={'/homepage/salmon-mobile.jpg'} foodName={'Sered Salmon Fillet'} foodDesc={'Our locally sourced slamon served with a refreshing buckwheat summer salad'}/>
         </div>
       
     )
