@@ -1,14 +1,15 @@
 .events-cont{
-    height: 900px;
+    height: 910px;
     width: 375px;
     color: black;
 }
 .event-cont{
-    margin: 84px 24px;
+    margin: 80px 24px;
 }
 .event-img{
     height: 400px;
     width: 326px;
+    box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.503223);
 }
 .event-txt-cont{
     text-align: center;
@@ -18,23 +19,41 @@
 .events{
     width: 326px;
     height: 116px;
+}
+.events span{
+    cursor: pointer;
+ }
+.tag{
+    padding-bottom: 18px;
+
     font-family: Spartan;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 28px;
     /* identical to box height, or 200% */
-    
+    position: relative;
     text-align: center;
     letter-spacing: 2px;
     
     color: #4C4C4C;
-    
     mix-blend-mode: normal;
     opacity: 0.5;
 }
-.events div{
-   padding-bottom: 18px;
+.active{
+    color: black;
+    opacity: 1;
+}
+.event-line{
+    background-color: #9E7F66;
+    width: 48px;
+    height: 1px;
+    display: none;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+.event-line-active{
+    display: block;
 }
 .event-txt{
     width: 327px;
@@ -70,7 +89,7 @@ color: #242B37;
     width: 245px;
 height: 64px;
 margin: 0 auto;
-margin-top: 32px;
+margin-top: 38px;
 text-align: center;
 align-items: center;
 padding-top: 23px;
