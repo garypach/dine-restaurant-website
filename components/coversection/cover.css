@@ -1,16 +1,25 @@
-.cover-cont{
-    position: absolute;
-width: 327px;
-height: 683px;
-left: 24px;
-top: 676px;
+.cover-section-cont{
+    position: relative;
+    height: 1455px;
+    width: 375px;
 }
-.under{
+.cover-cont{
     position: absolute;
     width: 327px;
     height: 683px;
     left: 24px;
-    top: 1462px;
+    top: -50px;
+}
+.cover-cont-under{
+    position: absolute;
+    width: 327px;
+    height: 683px;
+    left: 24px;
+    top: 700px;
+}
+.under{
+    top: -750px;
+
 }
 .cover-img {
     width: 327px;

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-const Footer = () => {
+const Footer = (props) => {
     return(
-        <div className="footer-cont">
+        <div className={`footer-cont ${props.type}`}>
             <div className="footer-text-cont">
                 <h2 className="dine-book-foot">dine</h2>
                 <p>Marthwaite, Sedbergh Cumbria</p>

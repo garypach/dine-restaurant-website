@@ -1,23 +1,18 @@
 .hero-cont{
-position: absolute;
+position: relative;
 width: 375px;
 height: 748px;
-left: 0px;
-top: 0px;
+text-align: center;
 }
 .hero-txt-cont{
-    position: absolute;
+position: absolute;
 width: 327px;
 height: 364px;
 left: 24px;
 top: 232px;
 }
 .dine{
-position: absolute;
-left: 37.31%;
-right: 37.49%;
-top: 0%;
-bottom: 91.21%;
+
 color: white;
 line-height: 56px;
 letter-spacing: -.5px;
@@ -26,12 +21,8 @@ font-weight: bold;
 
 }
 .heading{
-    position: absolute;
+    margin-top: 32px;
 height: 80px;
-left: 0%;
-right: 0%;
-top: calc(50% - 80px/2 - 78px);
-
 font-family: Spartan;
 font-style: normal;
 font-weight: 300;
@@ -45,30 +36,27 @@ letter-spacing: -0.4px;
 color: #FFFFFF;
 }
 .desc{
-    position: absolute;
 height: 100px;
-left: 0%;
-right: 0%;
-top: calc(50% - 100px/2 + 36px);
-
+margin-top: 33px;
 font-family: Spartan;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
 line-height: 25px;
 /* or 167% */
-
 text-align: center;
 letter-spacing: -0.1875px;
 
 color: #FFFFFF;
 }
 .button-cont{
-    position: absolute;
-left: 12.54%;
-right: 12.54%;
-top: 82.42%;
-bottom: 0%;
+width: 245px;
+height: 64px;
+margin: 0 auto;
+margin-top: 40px;
+text-align: center;
+align-items: center;
+padding-top: 23px;
 border: 1px solid;
 border-color: white;
 color: #FFFFFF;
@@ -79,17 +67,12 @@ color: #FFFFFF;
     color: black;
 }
 .button-cont p{
-    position: absolute;
 height: 16px;
-left: 22.04%;
-top: calc(50% - 16px/2);
-
 font-family: Spartan;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 16px;
 /* identical to box height, or 114% */
-
 letter-spacing: 2px;
 }

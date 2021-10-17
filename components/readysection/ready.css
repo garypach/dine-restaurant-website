@@ -1,0 +1,47 @@
+.ready-img{
+    width: 375px;
+    height: 328px;
+    position: relative;
+}
+.ready-txt-cont{
+    position: absolute;
+    top:80px;
+    width: 327px;
+height: 168px;
+left: 24px;
+color: white;
+text-align: center;
+}
+.ready-txt h1{
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    
+    text-align: center;
+    letter-spacing: -0.4px;
+    
+    color: #FFFFFF;
+}
+#ready-button{
+    width: 245px;
+height: 64px;
+margin: 0 auto;
+margin-top: 32px;
+text-align: center;
+align-items: center;
+padding-top: 23px;
+border: 1px solid;
+border-color: white;
+color: white;
+background-color: transparent;
+}
+#ready-button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-color: black;
+
+}

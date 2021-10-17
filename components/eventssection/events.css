@@ -1,0 +1,86 @@
+.events-cont{
+    height: 900px;
+    width: 375px;
+    color: black;
+}
+.event-cont{
+    margin: 84px 24px;
+}
+.event-img{
+    height: 400px;
+    width: 326px;
+}
+.event-txt-cont{
+    text-align: center;
+    height: 394px;
+    margin-top: 49px;
+}
+.events{
+    width: 326px;
+    height: 116px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color: #4C4C4C;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.events div{
+   padding-bottom: 18px;
+}
+.event-txt{
+    width: 327px;
+    height: 156px;
+    margin-top: 24px;
+}
+.event-txt h1{
+    font-family: Spartan;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+text-align: center;
+letter-spacing: -0.4px;
+
+color: #242B37;
+}
+.event-txt p{
+    margin-top: 16px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    letter-spacing: -0.1875px;
+    color: #242B37;
+}
+#event-button{
+    width: 245px;
+height: 64px;
+margin: 0 auto;
+margin-top: 32px;
+text-align: center;
+align-items: center;
+padding-top: 23px;
+border: 1px solid;
+border-color: black;
+color: white;
+background-color: black;
+}
+#event-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

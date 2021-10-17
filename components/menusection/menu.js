@@ -10,20 +10,46 @@ const Menu = (props) => {
                 <h2 className="food-heading"> A few highlights from  our menu</h2>
                 <div className="food-heading-desc">
                 <p>
-                    we cater for all dietary requirements, but here is a glimpse at some of our diners favourites. Our menu is revamped every season.
+                    We cater for all dietary requirements, but here is a glimpse at some of our diners favourites. Our menu is revamped every season.
                 </p>
                 </div>
             </div>
-            <div className="menu-item">
-            <div className="food-img">
-            <Image src={props.foodImage} width="327px" height="400px" alt="salmon"/>
+            <div className="menu-items">
+                <div className="menu-item">
+                <div className="food-img">
+            <Image src={props.foodImageOne} width="327px" height="245px" alt="salmon"/>
             </div>
             <div className="food-txt-cont">
-                <h2 className="food-name"> {props.foodName}</h2>
+                <h2 className="food-name"> {props.foodNameOne}</h2>
                 <div className="food-desc">
-                <p>{props.foodDesc}</p>
+                <p>{props.foodDescOne}</p>
                 </div>
             </div>
+                </div>
+                <div className="menu-item">
+                <div className="food-img">
+            <Image src={props.foodImageTwo} width="327px" height="245px" alt="salmon"/>
+            </div>
+            <div className="food-txt-cont">
+                <h2 className="food-name"> {props.foodNameTwo}</h2>
+                <div className="food-desc">
+                <p>{props.foodDescTwo}</p>
+                </div>
+            </div>
+                </div>
+                <div className="menu-item">
+                <div className="food-img">
+            <Image src={props.foodImageThree} width="327px" height="245px" alt="salmon"/>
+            </div>
+            <div className="food-txt-cont">
+                <h2 className="food-name"> {props.foodNameThree}</h2>
+                <div className="food-desc">
+                <p>{props.foodDescThree}</p>
+                </div>
+            </div>
+                </div>
+        
+        
             </div>
            
             </div>

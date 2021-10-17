@@ -7,6 +7,13 @@
     color: white;
     top: 1134px;
 }
+.foot-home{
+    position: absolute;
+width: 375px;
+height: 440px;
+left: 0px;
+top: 5294px;
+}
 .footer-text-cont{
     color: white;
     width: 327px;
