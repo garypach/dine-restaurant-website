@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 const Events = () => {
 
 const eventimages = [
-    {id:'1', imageName:'family-gathering-mobile.jpg',tag:'family', head:'Family Gathering',text:'We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.'},
-    {id:'2', imageName:'special-events-mobile.jpg',tag:'special', head:'Special Events',text:'Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to mark your special date with an unforgettable meal.'},
-    {id:'3', imageName:'social-events-mobile.jpg',tag:'social', head:'Social Events',text:'Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a hit with everyone.'},
+    {id:'1', imageName:'family-gathering-mobile.jpg',imageNameTwoTime:'family-gathering-mobile@2x.jpg',tag:'family', head:'Family Gathering',text:'We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.'},
+    {id:'2', imageName:'special-events-mobile.jpg',imageNameTwoTime:'special-events-mobile@2x.jpg',tag:'special', head:'Special Events',text:'Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to mark your special date with an unforgettable meal.'},
+    {id:'3', imageName:'social-events-mobile.jpg',imageNameTwoTime:'social-events-mobile@2x.jpg',tag:'social', head:'Social Events',text:'Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a hit with everyone.'},
 ]
 const[tag,setTag] = useState(0);
     const[selectedImage,setSelectedImage] = useState([]);
@@ -18,8 +18,17 @@ const[tag,setTag] = useState(0);
     return(
         <div className="events-cont">
             <div className="event-cont">
-            <div className="event-img">
+            <div className="event-img mobile">
             <Image src={`/homepage/${selectedImage.imageName}`}  width="326px" height="400px" alt={`${selectedImage.tag}`}/>
+            </div>
+            <div className="event-img event-twotime">
+            <Image src={`/homepage/${selectedImage.imageNameTwoTime}`}  width="689px" height="400px" alt={`${selectedImage.tag}`}/>
+            </div>
+            <div className='event-pattern-left'>
+            <Image src={`/patterns/pattern-curve-top-right.svg`} width="573px" height="360px" alt="pattern"/>
+            </div>
+            <div className="event-triple-line">
+            <Image src="/patterns/pattern-lines.svg" width="160px" height="76px" alt="Enjoyable place"/>
             </div>
             <div className="event-txt-cont">
                 <div className="events">

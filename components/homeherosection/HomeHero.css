@@ -76,3 +76,20 @@ line-height: 16px;
 /* identical to box height, or 114% */
 letter-spacing: 2px;
 }
+@media only screen and (min-width: 376px) {
+    .hero-cont{
+        position: relative;
+        width: 750px;
+        height: 748px;
+        text-align: center;
+        }
+        .hero-txt-cont{
+        position: absolute;
+        width: 689px;
+        height: 402px;
+        left: 39px;
+        top: 374px;        
+        }
+    
+    
+}

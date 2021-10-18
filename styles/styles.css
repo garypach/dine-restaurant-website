@@ -6,4 +6,27 @@
 @import url(../components/readysection/ready.css);
 @import url(../components/bookhero/bookhero.css);
 @import url(../components/reserve/reserve.css);
-@import url(../components/footer/footer.css)
+@import url(../components/footer/footer.css);
+
+.mobiletwotimes{
+    display: none;
+}
+@media only screen and (min-width: 376px) {
+.mobile{
+    display: none;
+}
+.mobiletwotimes{
+    display: block;
+    width: 750px;
+    position: relative;
+}
+.coverimg{
+    width: 563px;
+    height: 360px;
+}
+.coverimg img{
+    width: 563px;
+    height: 360px;
+    object-fit: cover;
+}
+}

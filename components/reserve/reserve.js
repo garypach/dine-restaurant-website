@@ -7,7 +7,7 @@ const Reserve = () => {
      <section className="email-modal">
        <form onSubmit={newState.submittedForm}>
          <div className="email-modal__form-group">
-           
+           <div>
            <input
              onChange={newState.handleNameInput}
              value={newState.name}
@@ -25,9 +25,11 @@ const Reserve = () => {
          } `}
        >
          This field is required
+         </div>
        </div>
          </div>
          <div className="email-modal__form-group">
+           <div>
            <input
              type="email"
              className={`email-modal__input ${
@@ -45,6 +47,7 @@ const Reserve = () => {
          } `}
        >
          This field is required
+         </div>
        </div>
          </div>
          <div className="email-modal__form-group">

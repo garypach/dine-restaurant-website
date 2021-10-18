@@ -53,6 +53,7 @@ color: #FFFFFF;
     width: 71px;
     height: 7px;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 .menu-items{
@@ -68,6 +69,8 @@ flex-direction: column;
     border-bottom: 1px solid rgb(255, 255, 255,.15);
     mix-blend-mode: normal;  
     padding-top: 15px;
+    margin-top: 40px;
+
     }
 .food-img{
     width: 327px;
@@ -99,4 +102,116 @@ padding: 0 15px;
 text-align: center;
 letter-spacing: -0.1875px;
 
+}
+
+@media only screen and (min-width: 376px) {
+    .menu-section-cont{
+        position: relative;
+    width: 750px;
+    height: 891px;
+    background: #111111;
+    }
+    .menu-cont{
+    margin: 0 auto;
+    width: 573px;
+    height: 1576px;
+    left: 24px;
+    top: 2202px;
+    text-align: center;
+    overflow: hidden;
+    }
+    .menu-txt-cont{
+        width: 427px;
+        padding-left: 40px;
+        height: 235px;
+        margin-top: 73px;
+        margin-bottom:72px ;
+        color: white;
+        margin: 0 auto;
+
+    }
+    .food-heading{
+        margin-top: 43px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    
+    text-align: center;
+    letter-spacing: -0.4px;
+    
+    color: #FFFFFF;
+    }
+    .food-heading-desc{
+        margin-top: 27px;
+    
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        
+        text-align: center;
+        letter-spacing: -0.1875px;
+        
+        color: #FFFFFF;
+    
+    }
+    
+    .food-line{
+        width: 71px;
+        height: 7px;
+        margin: 0 auto;
+    }
+    
+    .menu-items{
+        margin-top: 90px;
+        width: 573px;
+        height: 396px; 
+    display: flex;
+    flex-direction: column;
+    }
+    .menu-item{
+        width: 573px;
+        height: 318px;
+        color: white;
+        border-bottom: 1px solid rgb(255, 255, 255,.15);
+        mix-blend-mode: normal;  
+        padding-top: 0px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .food-img{
+        width: 128px;
+        height: 96px;
+    }
+    .food-txt-cont{
+        margin-top: 0px;
+    }
+    .food-name{
+        font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    
+    text-align: center;
+    letter-spacing: -0.225px;
+    
+    }
+    .food-desc{
+        margin-top: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+    padding: 0 15px;
+    text-align: center;
+    letter-spacing: -0.1875px;
+    
+    }
 }

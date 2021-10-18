@@ -3,7 +3,12 @@ import Link from 'next/link';
 const BookHero = () => {
     return(
         <div className="book-hero-cont">
-            <Image src="/booking/hero-bg-mobile.jpg" width="375px" height="600px" alt="booking"></Image>
+            <div className="mobile">
+            <Image className="mobile"src="/booking/hero-bg-mobile.jpg" width="375px" height="600px" alt="booking"></Image>
+            </div>
+            <div className="mobiletwotimes">
+            <Image className="mobiletwotimes"src="/booking/hero-bg-mobile@2x.jpg" width="750px" height="1200px" alt="booking"></Image>
+            </div>
             <div className="book-txt-cont">
                 <h2 className="dine-book">dine</h2>
                 <h1>Reservations</h1>

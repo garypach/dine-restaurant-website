@@ -3,7 +3,13 @@ import Link from 'next/link';
 const Ready = () => {
     return(
             <div className="ready-img">
+            <div className="mobile">
             <Image src={`/homepage/ready-bg-mobile.jpg`}  width="375px" height="328px" alt={`family`}/>
+
+            </div>
+            <div className="mobiletwotimes">
+            <Image src={`/homepage/ready-bg-mobile@2x.jpg`}  width="750px" height="272px" alt={`family`}/>
+            </div>
             <div className="ready-txt-cont">
                 <div className="ready-txt">
                     <h1>Ready to make a reservation?</h1>                   

@@ -48,3 +48,57 @@ text-transform: lowercase;
 .footer-text-cont :nth-child(4){
     margin-top: 40px;
 }
+
+@media only screen and (min-width: 376px) {
+    .footer-cont{
+        position: absolute;
+        background: #111111;
+        width: 750px;
+        height: 440px;
+        left: 0px;
+        color: white;
+        top: 1434px;
+    }
+    .foot-home{
+        position: absolute;
+    width: 750px;
+    height: 440px;
+    left: 0px;
+    top: 4721px;
+
+    }
+    .footer-text-cont{
+        color: white;
+        width: 327px;
+    height: 280px;
+    left: 24px;
+    top: 1214px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    }
+    .dine-book-foot{
+     margin-top: 80px;
+     color: white;
+    line-height: 56px;
+    letter-spacing: -.5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: lowercase;
+    }
+    .footer-text-cont :nth-child(2){
+        margin-top: 25px;
+    }
+    .footer-text-cont :nth-child(4){
+        margin-top: 40px;
+    }
+}

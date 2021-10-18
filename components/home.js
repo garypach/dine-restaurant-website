@@ -11,6 +11,8 @@ const Home = () => {
         <HomeHero/>
         <Cover 
         coverImage={'/homepage/enjoyable-place-mobile.jpg'} 
+        coverImageTwoTimes={'/homepage/enjoyable-place-mobile@2x.jpg'} 
+
         coverHeading={
         'Enjoyable place for all the family'
         }
