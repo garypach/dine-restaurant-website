@@ -14,6 +14,25 @@ height: 440px;
 left: 0px;
 top: 5294px;
 }
+.dine-foot{
+    color: white;
+    width: 327px;
+height: 80px;
+left: 24px;
+top: 1214px;
+font-family: Spartan;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+/* or 200% */
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+align-items: center;
+color: #FFFFFF;
+margin: 0 auto;
+}
 .footer-text-cont{
     color: white;
     width: 327px;
@@ -54,25 +73,15 @@ text-transform: lowercase;
         position: absolute;
         background: #111111;
         width: 750px;
-        height: 440px;
+        height: 328px;
         left: 0px;
         color: white;
         top: 1434px;
+        display: flex;
+        align-items: center;
     }
-    .foot-home{
-        position: absolute;
-    width: 750px;
-    height: 440px;
-    left: 0px;
-    top: 4721px;
-
-    }
-    .footer-text-cont{
+    .dine-foot{
         color: white;
-        width: 327px;
-    height: 280px;
-    left: 24px;
-    top: 1214px;
     font-family: Spartan;
     font-style: normal;
     font-weight: normal;
@@ -82,12 +91,41 @@ text-transform: lowercase;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 200px;
+    padding-right: 90px;
+
+    }
+    .foot-home{
+        position: absolute;
+    width: 750px;
+    height: 328px;
+        left: 0px;
+    top: 4720px;
+
+    }
+    .footer-text-cont{
+    color: white;
+    width: 327px;
+    height: 280px;
+   
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     align-items: center;
     color: #FFFFFF;
-    margin: 0 auto;
+    margin: 0;
+    margin-top: 30px;
     }
     .dine-book-foot{
-     margin-top: 80px;
+     margin-top: 0px;
      color: white;
     line-height: 56px;
     letter-spacing: -.5px;

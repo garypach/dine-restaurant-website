@@ -3,8 +3,8 @@ import Link from 'next/link'
 const Footer = (props) => {
     return(
         <div className={`footer-cont ${props.type}`}>
+            <div className="dine-foot"> <h2 className="dine-book-foot">dine</h2></div>
             <div className="footer-text-cont">
-                <h2 className="dine-book-foot">dine</h2>
                 <p>Marthwaite, Sedbergh Cumbria</p>
                 <p>+00 44 123 4567 </p>
                 <p>Open Times</p>
