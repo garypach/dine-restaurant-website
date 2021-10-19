@@ -11,6 +11,15 @@
 .mobiletwotimes{
     display: none;
 }
+.desktop{
+    display: none;
+}
+.desktoptwotime{
+    display: none;
+}
+.desktoptwotimes{
+    display: none;
+}
 @media only screen and (min-width: 376px) {
 .mobile{
     display: none;
@@ -24,9 +33,74 @@
     width: 563px;
     height: 360px;
 }
+.desktoptwotimes{
+    display: none;
+}
 .coverimg img{
     width: 563px;
     height: 360px;
     object-fit: cover;
 }
+}
+
+@media only screen and (min-width: 751px) {
+    .mobiletwotime{
+        display: none;
+    }
+    .mobiletwotimes{
+        display: none;
+    }
+    .desktop{
+        display: block;
+        width: 1440px;
+        position: relative;
+
+    }
+    .desktoptwotimes{
+        display: block;
+        width: 1440px;
+        position: relative;
+    }
+    .coverimg{
+        width: 540px;
+        height: 720px;
+    }
+    .coverimg img{
+        width: 540px;
+        height: 720px;
+        object-fit: contain;
+    }
+}
+@media only screen and (min-width: 1441px) {
+    .mobiletwotime{
+        display: none;
+    }
+    .mobiletwotimes{
+        display: none;
+    }
+    .desktop{
+        display: none;
+        width: 1440px;
+        position: relative;
+
+    }
+    .desktoptwotime{
+        display: block;
+        width: 1920px;
+        position: relative;
+    }
+    .desktoptwotimes{
+        display: block;
+        width: 1920px;
+        position: relative;
+    }
+    .coverimg{
+        width: 540px;
+        height: 720px;
+    }
+    .coverimg img{
+        width: 540px;
+        height: 720px;
+        object-fit: contain;
+    }
 }

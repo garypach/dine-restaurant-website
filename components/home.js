@@ -12,6 +12,7 @@ const Home = () => {
         <Cover 
         coverImage={'/homepage/enjoyable-place-mobile.jpg'} 
         coverImageTwoTimes={'/homepage/enjoyable-place-mobile@2x.jpg'} 
+        coverImageDesktop={'/homepage/enjoyable-place-desktop.jpg'} 
 
         coverHeading={
         'Enjoyable place for all the family'
@@ -20,6 +21,7 @@ const Home = () => {
             'Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour of the farm before your meal.'
         }
         coverImageTwo={'/homepage/locally-sourced-mobile@2x.jpg'} 
+        coverImageTwoDesktop={'/homepage/locally-sourced-desktop.jpg'}
         coverHeadingTwo={'The most locally sourced food'}
         coverDescTwo={' All our ingredients come directly from our farm or local fishery. So you can be sure that you’re eating the freshest, most sustainable food. '}
         />

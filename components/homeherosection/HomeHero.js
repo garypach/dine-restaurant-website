@@ -9,6 +9,12 @@ const HomeHero = () => {
             <div className="mobiletwotime">
             <Image src="/homepage/hero-bg-mobile@2x.jpg" width="750px" height="1200px" alt="hero bg"/>
             </div>
+            <div className="desktop">
+            <Image src="/homepage/hero-bg-desktop.jpg" width="1440px" height="820px" alt="hero bg"/>
+            </div>
+            <div className="desktoptwotime">
+            <Image src="/homepage/hero-bg-desktop@2x.jpg" width="2880px" height="1200px" alt="hero bg"/>
+            </div>
             <div className="hero-txt-cont">
                 <h2 className="dine">dine</h2>
                 <h1 className="heading">Exquisite dining since 1989 </h1>

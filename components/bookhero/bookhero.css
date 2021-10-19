@@ -2,6 +2,8 @@
     width: 375px;
     height: 600px;
     position: relative;
+    overflow: hidden;
+
 }
 .book-txt-cont{
     position: absolute;
@@ -115,6 +117,136 @@
         height: 64px;
         margin: 0 auto;
         margin-top: 27px;
+    }
+    .reserve-btn p{
+      
+        margin-top: 24px;
+    }
+}
+@media only screen and (min-width: 751px) {
+   
+    .book-hero-cont{
+        width: 1440px;
+        height: 600px;
+        position: relative;
+    }
+    .book-txt-cont{
+        position: absolute;
+        top: 0;
+        color: white;
+        text-align: left;
+        margin: 0 auto;
+        left:300px;
+        margin-top: 56px;
+        width: 600px;
+    }
+    .dine-book{
+        color: white;
+       line-height: 56px;
+       letter-spacing: -.5px;
+       font-size: 40px;
+       font-weight: bold;
+       text-transform: lowercase;
+       }
+    .book-txt-cont :nth-child(2){
+        margin: 0 auto;
+        height: 40px;
+        margin-top: 44px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 40px;
+    /* identical to box height, or 125% */
+    
+        text-align: left;
+        letter-spacing: -0.4px;
+    }
+    
+    .book-txt-cont :nth-child(3){
+    
+        height: 100px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        margin-top: 29px;
+        text-align: left;
+        letter-spacing: -0.1875px;
+    }
+    
+    .reserve-btn{
+        border: 1px solid white;
+        width: 245px;
+        height: 64px;
+        margin: 0;
+        margin-top: 27px;
+        text-align: center;
+    }
+    .reserve-btn p{
+      
+        margin-top: 24px;
+    }
+}
+@media only screen and (min-width: 1441px) {
+   
+    .book-hero-cont{
+        width: 1920px;
+        height: 600px;
+        position: relative;
+    }
+    .book-txt-cont{
+        position: absolute;
+        top: 0;
+        color: white;
+        text-align: left;
+        margin: 0 auto;
+        left:300px;
+        margin-top: 56px;
+        width: 600px;
+    }
+    .dine-book{
+        color: white;
+       line-height: 56px;
+       letter-spacing: -.5px;
+       font-size: 40px;
+       font-weight: bold;
+       text-transform: lowercase;
+       }
+    .book-txt-cont :nth-child(2){
+        margin: 0 auto;
+        height: 40px;
+        margin-top: 44px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 40px;
+    /* identical to box height, or 125% */
+    
+        text-align: left;
+        letter-spacing: -0.4px;
+    }
+    
+    .book-txt-cont :nth-child(3){
+    
+        height: 100px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        margin-top: 29px;
+        text-align: left;
+        letter-spacing: -0.1875px;
+    }
+    
+    .reserve-btn{
+        border: 1px solid white;
+        width: 245px;
+        height: 64px;
+        margin: 0;
+        margin-top: 27px;
+        text-align: center;
     }
     .reserve-btn p{
       

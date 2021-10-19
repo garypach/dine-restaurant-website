@@ -6,6 +6,7 @@
     left: 0px;
     color: white;
     top: 1134px;
+    overflow: hidden;
 }
 .foot-home{
     position: absolute;
@@ -61,11 +62,15 @@ font-size: 40px;
 font-weight: bold;
 text-transform: lowercase;
 }
+.footer-text-cont :nth-child(1){
+    margin-top: 10px;
+    width: 300px;
+}
 .footer-text-cont :nth-child(2){
-    margin-top: 25px;
+    margin-top: 0px;
 }
 .footer-text-cont :nth-child(4){
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 @media only screen and (min-width: 376px) {
@@ -133,10 +138,169 @@ text-transform: lowercase;
     font-weight: bold;
     text-transform: lowercase;
     }
+    .footer-text-cont :nth-child(1){
+        margin-top: 20px;
+        width: 300px;
+    }
     .footer-text-cont :nth-child(2){
-        margin-top: 25px;
+        margin-top: 0px;
     }
     .footer-text-cont :nth-child(4){
-        margin-top: 40px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 751px) {
+    .footer-cont{
+        position: absolute;
+        background: #111111;
+        width: 1440px;
+        height: 328px;
+        left: 0px;
+        color: white;
+        top: 1034px;
+        display: flex;
+        align-items: center;
+    }
+    .dine-foot{
+    color: white;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-left: 265px;
+    padding-right: 90px;
+
+    }
+    .foot-home{
+        position: absolute;
+    width: 1440px;
+    height: 328px;
+        left: 0px;
+    top: 3923px;
+
+    }
+    .footer-text-cont{
+    color: white;
+    width: 1110px;
+    height: 84px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    }
+    .dine-book-foot{
+     margin-top: 0px;
+     color: white;
+    line-height: 56px;
+    letter-spacing: -.5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: lowercase;
+    }
+    .footer-text-cont :nth-child(1){
+        margin-top: 0px;
+        width: 300px;
+    }
+    .footer-text-cont :nth-child(2){
+        margin-top: 0px;
+    }
+    .footer-text-cont :nth-child(4){
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 1441px) {
+    .footer-cont{
+        position: absolute;
+        background: #111111;
+        width: 1920px;
+        height: 328px;
+        left: 0px;
+        color: white;
+        top: 1234px;
+        display: flex;
+        align-items: center;
+    }
+    .dine-foot{
+    color: white;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-left: 505px;
+    padding-right: 90px;
+
+    }
+    .foot-home{
+        position: absolute;
+    width: 1920px;
+    height: 328px;
+        left: 0px;
+    top: 3920px;
+
+    }
+    .footer-text-cont{
+    color: white;
+    width: 1110px;
+    height: 84px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    }
+    .dine-book-foot{
+     margin-top: 0px;
+     color: white;
+    line-height: 56px;
+    letter-spacing: -.5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: lowercase;
+    }
+    .footer-text-cont :nth-child(1){
+        margin-top: 0px;
+        width: 300px;
+    }
+    .footer-text-cont :nth-child(2){
+        margin-top: 0px;
+    }
+    .footer-text-cont :nth-child(4){
+        margin-top: 0px;
     }
 }

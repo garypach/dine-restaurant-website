@@ -10,6 +10,12 @@ const Ready = () => {
             <div className="mobiletwotimes">
             <Image src={`/homepage/ready-bg-mobile@2x.jpg`}  width="750px" height="272px" alt={`family`}/>
             </div>
+            <div className="desktop">
+            <Image src={`/homepage/ready-bg-desktop.jpg`}  width="1440px" height="272px" alt={`family`}/>
+            </div>
+            <div className="desktoptwotime">
+            <Image src={`/homepage/ready-bg-desktop@2x.jpg`}  width="1920px" height="272px" alt={`family`}/>
+            </div>
             <div className="ready-txt-cont">
                 <div className="ready-txt">
                     <h1>Ready to make a reservation?</h1>                   

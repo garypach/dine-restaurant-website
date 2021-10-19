@@ -5,6 +5,9 @@ const Reserve = () => {
     const newState = useStateContext();
    return (
      <section className="email-modal">
+       <div className="book-triple-line">
+            <Image src="/patterns/pattern-lines.svg" width="160px" height="76px" alt="Enjoyable place"/>
+            </div>
        <form onSubmit={newState.submittedForm}>
          <div className="email-modal__form-group">
            <div>
