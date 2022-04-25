@@ -1,0 +1,24 @@
+
+@use'reset.scss';
+@use '../components/homeherosection/HomeHero.css';
+@use '../components/coversection/cover.scss';
+@use '../components/menusection/menu.scss';
+@use '../components/eventssection/events.scss';
+@use '../components/readysection/ready.scss';
+@use '../components/footer/footer.scss';
+@import url(../components/bookhero/bookhero.css);
+@import url(../components/reserve/reserve.css);
+
+
+.mobiletwotimes{
+    display: block;
+}
+.desktop{
+    display: none;
+}
+.desktoptwotime{
+    display: none;
+}
+.desktoptwotimes{
+    display: none;
+}

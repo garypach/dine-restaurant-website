@@ -1,27 +1,30 @@
 .hero-cont{
-position: relative;
-width: 375px;
-height: 748px;
-text-align: center;
+    position: relative;
+    width: 100%;
+    height: 748px;
+    text-align: center;
 }
 .hero-txt-cont{
-position: absolute;
-width: 327px;
+width: 100%;
+max-width: 327px;
 height: 364px;
-left: 24px;
+position: absolute;
 top: 232px;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
 }
 .dine{
-
 color: white;
 line-height: 56px;
 letter-spacing: -.5px;
 font-size: 40px;
 font-weight: bold;
-
 }
 .heading{
-    margin-top: 32px;
+margin-top: 32px;
 height: 80px;
 font-family: Spartan;
 font-style: normal;
@@ -76,23 +79,7 @@ line-height: 16px;
 /* identical to box height, or 114% */
 letter-spacing: 2px;
 }
-@media only screen and (min-width: 376px) {
-    .hero-cont{
-        position: relative;
-        width: 750px;
-        height: 748px;
-        text-align: center;
-        }
-        .hero-txt-cont{
-        position: absolute;
-        width: 689px;
-        height: 402px;
-        left: 39px;
-        top: 374px;        
-        }
-    
-    
-}
+
 @media only screen and (min-width: 751px) {
     .hero-cont{
         position: relative;

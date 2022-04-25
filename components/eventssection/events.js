@@ -16,12 +16,12 @@ const[tag,setTag] = useState(0);
    
 
     return(
-        <div className="events-cont">
+        <div className="event-section">
             <div className="event-cont">
-            <div className="event-img mobile">
-            <Image src={`/homepage/${selectedImage.imageName}`}  width="326px" height="400px" alt={`${selectedImage.tag}`}/>
+            <div className="event-img mobiletwotime">
+            <Image src={`/homepage/${selectedImage.imageName}`}  layout="fill" alt={`${selectedImage.tag}`}/>
             </div>
-            <div className="event-img event-twotime">
+            {/* <div className="event-img event-twotime">
             <Image src={`/homepage/${selectedImage.imageNameTwoTime}`}  width="689px" height="400px" alt={`${selectedImage.tag}`}/>
             </div>
             <div className='event-pattern-left'>
@@ -29,7 +29,7 @@ const[tag,setTag] = useState(0);
             </div>
             <div className="event-triple-line">
             <Image src="/patterns/pattern-lines.svg" width="160px" height="76px" alt="Enjoyable place"/>
-            </div>
+            </div> */}
             <div className="event-txt-cont">
                 <div className="events">
                 <TagImage number={0} handleSetTag={setTag} text={'Famliy Gatherings'} tagActive={tag === 0 ? true : false }/>

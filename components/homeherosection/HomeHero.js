@@ -3,11 +3,11 @@ import Link from 'next/link'
 const HomeHero = () => {
     return(
         <div className="hero-cont">
-            <div className="mobile">
+            {/* <div className="mobile">
             <Image src="/homepage/hero-bg-mobile.jpg" width="375px" height="748px" alt="hero bg"/>
-            </div>
+            </div> */}
             <div className="mobiletwotime">
-            <Image src="/homepage/hero-bg-mobile@2x.jpg" width="750px" height="1200px" alt="hero bg"/>
+            <Image src="/homepage/hero-bg-mobile@2x.jpg" layout='fill' alt="hero bg"/>
             </div>
             <div className="desktop">
             <Image src="/homepage/hero-bg-desktop.jpg" width="1440px" height="820px" alt="hero bg"/>

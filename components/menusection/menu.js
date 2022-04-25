@@ -17,7 +17,7 @@ const Menu = (props) => {
             <div className="menu-items">
                 <div className="menu-item">
                 <div className="food-img">
-            <Image src={props.foodImageOne} width="327px" height="245px" alt="salmon"/>
+            <Image src={props.foodImageOne} layout="fill" alt="salmon"/>
             </div>
             <div className="food-txt-cont">
                 <h2 className="food-name"> {props.foodNameOne}</h2>
@@ -28,7 +28,7 @@ const Menu = (props) => {
                 </div>
                 <div className="menu-item">
                 <div className="food-img">
-            <Image src={props.foodImageTwo} width="327px" height="245px" alt="salmon"/>
+            <Image src={props.foodImageTwo} width="327px" layout="fill" alt="salmon"/>
             </div>
             <div className="food-txt-cont">
                 <h2 className="food-name"> {props.foodNameTwo}</h2>
@@ -39,7 +39,7 @@ const Menu = (props) => {
                 </div>
                 <div className="menu-item">
                 <div className="food-img">
-            <Image src={props.foodImageThree} width="327px" height="245px" alt="salmon"/>
+            <Image src={props.foodImageThree} layout="fill" alt="salmon"/>
             </div>
             <div className="food-txt-cont">
                 <h2 className="food-name"> {props.foodNameThree}</h2>
