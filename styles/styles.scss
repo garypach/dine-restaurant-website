@@ -1,6 +1,6 @@
 
 @use'reset.scss';
-@use '../components/homeherosection/HomeHero.css';
+@use '../components/homeherosection/HomeHero.scss';
 @use '../components/coversection/cover.scss';
 @use '../components/menusection/menu.scss';
 @use '../components/eventssection/events.scss';
@@ -13,6 +13,10 @@
 .mobiletwotimes{
     display: block;
 }
+.tablet{
+    display: none;
+}
+
 .desktop{
     display: none;
 }
@@ -21,4 +25,14 @@
 }
 .desktoptwotimes{
     display: none;
+}
+
+@media screen and (min-width:454px) {
+    .mobiletwotime{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+    
 }

@@ -6,13 +6,13 @@ const HomeHero = () => {
             {/* <div className="mobile">
             <Image src="/homepage/hero-bg-mobile.jpg" width="375px" height="748px" alt="hero bg"/>
             </div> */}
-            <div className="mobiletwotime">
+            <div className="hero-img mobiletwotime">
             <Image src="/homepage/hero-bg-mobile@2x.jpg" layout='fill' alt="hero bg"/>
             </div>
-            <div className="desktop">
-            <Image src="/homepage/hero-bg-desktop.jpg" width="1440px" height="820px" alt="hero bg"/>
+            <div className="hero-img tablet">
+            <Image src="/homepage/hero-bg-tablet@2x.jpg" layout='fill' alt="hero bg"/>
             </div>
-            <div className="desktoptwotime">
+            <div className="hero-img desktoptwotime">
             <Image src="/homepage/hero-bg-desktop@2x.jpg" width="2880px" height="1200px" alt="hero bg"/>
             </div>
             <div className="hero-txt-cont">

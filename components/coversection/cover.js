@@ -6,8 +6,11 @@ const Cover = (props) => {
             {/* <div className="mobile cover-img">
             <Image src={props.coverImage} width="327px" height="400px" alt="Enjoyable place"/>
             </div> */}
-            <div className="mobiletwotimes cover-img">
+            <div className="mobiletwotime cover-img">
             <Image src={props.coverImageTwoTimes} layout="fill" alt="Enjoyable place"/>
+            </div>
+            <div className="tablet cover-img">
+            <Image src={props.coverImageTablet} layout="fill" alt="Enjoyable place"/>
             </div>
             {/* <div className="desktop coverimg cover-img">
             <Image src={props.coverImageDesktop} width="540px" height="720px" alt="Enjoyable place"/>
@@ -36,10 +39,12 @@ const Cover = (props) => {
         {/* <div className="mobile">
             <Image src={props.coverImageTwo} width="327px" height="400px" alt="Enjoyable place"/>
             </div> */}
-            <div className="mobiletwotimes cover-img">
+            <div className="mobiletwotime cover-img">
             <Image src={props.coverImageTwo} layout="fill" alt="Enjoyable place"/>
             </div>
-           
+            <div className="tablet cover-img">
+            <Image src={props.coverImageTwoTablet} layout="fill" alt="Enjoyable place"/>
+            </div>
             {/* <div className="desktop coverimg">
             <Image src={props.coverImageTwoDesktop} width="540px" height="720px" alt="Enjoyable place"/>
             </div>

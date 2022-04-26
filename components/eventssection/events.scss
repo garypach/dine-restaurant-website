@@ -18,8 +18,9 @@
 }
 .event-img{
     position: relative;
+    width: 100%;
     height: 400px;
-    width: 326px;
+    max-width: 326px;
     box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.503223);
     img{
         object-fit: cover;
@@ -125,4 +126,99 @@ background-color: black;
 }
 .event-triple-line{
     display: none;
+}
+
+@media screen and (min-width:660px) {
+
+    .event-cont{
+        width: 100%;
+        margin-top: 120px;
+        margin-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .event-img{
+        position: relative;
+        width: 100%;
+        max-width: 573px;
+        height: 360px;  
+        box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.503223);
+        img{
+            object-fit: cover;
+            width: 100%;
+            max-height: 100%;
+        }
+    }
+    .event-txt-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 56px;
+    }
+    .events{
+        width: 100%;
+        max-width: 689px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .events span{
+        cursor: pointer;
+     }
+    .tag{
+        margin-bottom: 0px;
+    }
+    .event-txt{
+        width: 100%;
+        max-width: 457px;
+        margin-top: 40px;
+    }
+    .event-txt h1{
+        font-size: 40px;
+        line-height: 56px;
+        
+        /* identical to box height, or 140% */
+        text-align: center;
+        letter-spacing: -0.5px;
+        
+    }
+    .event-txt p{
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 30px;
+        
+        /* or 167% */
+        text-align: center;
+        letter-spacing: -0.225px;
+    }
+    #event-button{
+        width: 245px;
+    height: 64px;
+    margin: 0 auto;
+    margin-top: 38px;
+    text-align: center;
+    align-items: center;
+    padding-top: 23px;
+    border: 1px solid;
+    border-color: black;
+    color: white;
+    background-color: black;
+    }
+    #event-button:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+    .event-pattern-left{
+        display: none;
+    }
+    .event-triple-line{
+        display: none;
+    }
+    
 }

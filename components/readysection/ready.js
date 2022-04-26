@@ -3,19 +3,14 @@ import Link from 'next/link';
 const Ready = () => {
     return(
             <div className="ready-cont">
-            {/* <div className="mobile">
-            <Image src={`/homepage/ready-bg-mobile.jpg`}  width="375px" height="328px" alt={`family`}/>
-
-            </div> */}
-            <div className="ready-img mobiletwotimes">
+        
+            <div className="ready-img mobiletwotime">
             <Image src={`/homepage/ready-bg-mobile@2x.jpg`}  layout="fill" alt={`family`}/>
             </div>
-            {/* <div className="desktop">
-            <Image src={`/homepage/ready-bg-desktop.jpg`}  width="1440px" height="272px" alt={`family`}/>
+            <div className="ready-img tablet">
+            <Image src={`/homepage/ready-bg-tablet@2x.jpg`}  layout="fill" alt={`family`}/>
             </div>
-            <div className="desktoptwotime">
-            <Image src={`/homepage/ready-bg-desktop@2x.jpg`}  width="1920px" height="272px" alt={`family`}/>
-            </div> */}
+          
             <div className="ready-txt-cont">
                 <div className="ready-txt">
                     <h1>Ready to make a reservation?</h1>                   

@@ -51,3 +51,37 @@ color: #FFFFFF;
 .footer-text-cont :nth-child(4){
     margin-top: 0px;
 }
+@media screen and (min-width:660px) {
+    .footer-cont{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 80px 0px;
+    }
+    .dine-foot{
+        width: 100%;
+        max-width: 327px;
+    h2{
+        text-align: center;
+        font-size: 50px;
+    }
+    }
+    .footer-text-cont{
+        color: white;
+        width: 100%;
+    max-width: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+
+    .open-time{
+        margin-top: 32px;
+    }
+    }
+    .footer-text-cont :nth-child(1){
+        margin-top: 10px;
+        width: 300px;
+    }
+}
