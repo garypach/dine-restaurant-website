@@ -3,9 +3,7 @@ const Cover = (props) => {
     return(
         <div className="cover-section-cont">
   <div className={`cover-cont`}>
-            {/* <div className="mobile cover-img">
-            <Image src={props.coverImage} width="327px" height="400px" alt="Enjoyable place"/>
-            </div> */}
+    
             <div className="mobiletwotime cover-img">
             <Image src={props.coverImageTwoTimes} layout="fill" alt="Enjoyable place"/>
             </div>

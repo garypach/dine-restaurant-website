@@ -6,11 +6,11 @@
 @use '../components/eventssection/events.scss';
 @use '../components/readysection/ready.scss';
 @use '../components/footer/footer.scss';
-@import url(../components/bookhero/bookhero.css);
-@import url(../components/reserve/reserve.css);
+@use '../components/bookhero/bookhero.scss';
+@use '../components/reserve/reserve.scss';
 
 
-.mobiletwotimes{
+.mobiletwotime{
     display: block;
 }
 .tablet{

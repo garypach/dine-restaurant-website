@@ -28,7 +28,7 @@ const Menu = (props) => {
                 </div>
                 <div className="menu-item">
                 <div className="food-img">
-            <Image src={props.foodImageTwo} width="327px" layout="fill" alt="salmon"/>
+            <Image src={props.foodImageTwo} layout="fill" alt="salmon"/>
             </div>
             <div className="food-txt-cont">
                 <h2 className="food-name"> {props.foodNameTwo}</h2>
