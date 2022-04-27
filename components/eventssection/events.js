@@ -24,9 +24,10 @@ const[tag,setTag] = useState(0);
             <div className="event-img tablet">
             <Image src={`/homepage/${selectedImage.imageNameTablet}`}  layout="fill" alt={`${selectedImage.tag}`}/>
             </div>
-            {/* <div className="event-img event-twotime">
-            <Image src={`/homepage/${selectedImage.imageNameTwoTime}`}  width="689px" height="400px" alt={`${selectedImage.tag}`}/>
+            <div className="event-img desktop">
+            <Image src={`/homepage/${selectedImage.imageNameDesktop}`}  layout="fill" alt={`${selectedImage.tag}`}/>
             </div>
+            {/*
             <div className='event-pattern-left'>
             <Image src={`/patterns/pattern-curve-top-right.svg`} width="573px" height="360px" alt="pattern"/>
             </div>
@@ -39,6 +40,7 @@ const[tag,setTag] = useState(0);
                 <TagImage number={1} handleSetTag={setTag} text={'Special Events'} tagActive={tag === 1? true : false }/>
                 <TagImage number={2} handleSetTag={setTag} text={'Social Events'} tagActive={tag === 2? true : false }/>
                 </div>
+                <div className="text-btn-cont">
                 <div className="event-txt">
                     <h1>{selectedImage.head}</h1>
                     <p>{selectedImage.text}</p>                   
@@ -48,6 +50,8 @@ const[tag,setTag] = useState(0);
                     <div id="event-button"><p>BOOK A TABLE</p></div>
                     </a>
                 </Link>
+                </div>
+               
             </div>
             </div>
         </div>

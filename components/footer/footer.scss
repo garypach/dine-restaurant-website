@@ -85,3 +85,32 @@ color: #FFFFFF;
         width: 300px;
     }
 }
+
+@media screen and (min-width:1024px) {
+    .footer-cont{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 78px 0px;
+    }
+    .dine-foot{
+        width: 100%;
+        max-width: 105px;
+    h2{
+        text-align: center;
+        font-size: 50px;
+    }
+    }
+    .footer-text-cont{
+  
+    max-width: 814px;
+
+    .open-time{
+        margin-top: 0px;
+    }
+    }
+    .footer-text-cont :nth-child(1){
+        margin-top: 0px;
+        width: 300px;
+    }
+}

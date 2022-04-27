@@ -20,12 +20,6 @@
 .desktop{
     display: none;
 }
-.desktoptwotime{
-    display: none;
-}
-.desktoptwotimes{
-    display: none;
-}
 
 @media screen and (min-width:454px) {
     .mobiletwotime{
@@ -35,4 +29,17 @@
         display: block;
     }
     
+}
+
+@media screen and (min-width:1024px) {
+    .mobiletwotime{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    
+    .desktop{
+        display: block;
+    }
 }

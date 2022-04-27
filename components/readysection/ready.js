@@ -10,7 +10,9 @@ const Ready = () => {
             <div className="ready-img tablet">
             <Image src={`/homepage/ready-bg-tablet@2x.jpg`}  layout="fill" alt={`family`}/>
             </div>
-          
+            <div className="ready-img desktop">
+            <Image src={`/homepage/ready-bg-desktop@2x.jpg`}  layout="fill" alt={`family`}/>
+            </div>
             <div className="ready-txt-cont">
                 <div className="ready-txt">
                     <h1>Ready to make a reservation?</h1>                   
